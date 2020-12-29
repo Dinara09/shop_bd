@@ -16,4 +16,4 @@ $result = mysqli_query($connect, "INSERT INTO `product` (`id`, `name`, `dateAndT
     // 	echo "Информация не занесена в базу данных";
     // }
 
-header('Location: http://sweethome.loc/admin/');
+header('Location: http://sweethome.loc/admin/product.php?');

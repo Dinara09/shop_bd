@@ -1,0 +1,97 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Sriracha', sans-serif ;
+	font-family: 'Montserrat', sans-serif;
+	color: 000;
+	font-size: 16px;
+}
+h1, h2, h3, h4, h5, h6{
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+ul, li{
+	display: block;
+}
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+.header{
+background: #B5989C no-repeat center top / cover;
+padding-top: 75px;
+color: #fff;
+padding-bottom: 285px;
+}
+header a{
+	color: #000;
+}
+ li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px;
+}
+.honeyCake, .birdMilkCake, .strawberryCheesecake, .limeCheesecake li{
+	margin-right: 36px; 
+}
+div h1{
+	color: #000;
+	margin-bottom: 75px;
+}
+.honeyCake, .birdMilkCake, .strawberryCheesecake, .limeCheesecake{
+	width: 260px;
+}
+.productList{
+	display: flex;
+}
+
+
+.container{
+margin-bottom: 75px;
+}
+.menu{
+	display: flex;
+}
+.menu li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px;
+}
+.menu li{
+	margin-right: 36px; 
+}
+.nav{
+	display: flex;
+}
+.menu{
+	margin-left: auto;
+	align-items: center;
+}
+.name{
+	text-transform: uppercase;
+	margin-top: 219px;;
+}
+p{
+	margin: 0;
+}
+.name h1{
+	font-family: 'Sriracha', sans-serif;
+	font-size: 48px;
+	color: #E9D0D0;
+}
+.name p{
+	font-family: Montserrat;
+    font-size: 15px;
+    color: #E9D0D0;
+}
+.content{
+	background: #B5989C;
+	color: #fff;
+}
+.nameProduct{
+	color: #000;
+}
+.discription{
+	color: #000;
+}

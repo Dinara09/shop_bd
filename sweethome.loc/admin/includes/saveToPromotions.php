@@ -15,4 +15,4 @@ $result = mysqli_query($connect, "UPDATE `promotions` SET `promocode` = '$promoc
 //     }else{
 //     	echo "Не изменено";
 //     }
-header('Location: http://sweethome.loc/admin/');
+header('Location: http://sweethome.loc/admin/promotions.php?');

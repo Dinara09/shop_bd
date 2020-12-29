@@ -16,4 +16,4 @@ $result = mysqli_query($connect, "INSERT INTO `promotions` (`id`, `promocode`, `
     // 	echo "Информация не занесена в базу данных";
     // }
 
-header('Location: http://sweethome.loc/admin/');
+header('Location: http://sweethome.loc/admin/promotions.php?');

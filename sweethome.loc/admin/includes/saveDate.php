@@ -15,4 +15,4 @@ $result = mysqli_query($connect, "UPDATE `product` SET `name` = '$name', `dateAn
 //     }else{
 //     	echo "Не изменено";
 //     }
-header('Location: http://sweethome.loc/admin/');
+header('Location: http://sweethome.loc/admin/product.php?');

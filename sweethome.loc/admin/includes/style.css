@@ -1,0 +1,46 @@
+
+.chooseTable{
+	border: solid 1px black;
+	margin: 0 auto;
+	max-width: 600px;
+}
+.allTables{
+	margin-top: 80px;
+}
+.product {
+	box-sizing: border-box;
+    padding-left: 100px;
+}
+.shop{
+	box-sizing: border-box;
+	padding-left: 100px;
+}
+.promotion{
+	box-sizing: border-box;
+	padding-left: 100px;
+}
+.product, .shop, .promotion{
+
+	display:inline-block
+}
+.mainTitle{
+	text-align: center;
+	font-size: 250%;
+}
+.btn.btn-success{
+	height: 40px;
+}
+.exit
+{
+	color: #ffffff; 
+	text-decoration: none;
+	float: right;
+}
+.exitBlock{
+	float: right;
+}
+.btn{
+	float: right;
+	margin-right: 50px;
+	height: 31px;
+}

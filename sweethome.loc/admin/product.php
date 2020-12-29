@@ -5,21 +5,6 @@ session_start();
 require_once './includes/connect.php';
 
 $products = mysqli_query($connect, "SELECT * FROM `product`");
-
-// $sql = "INSERT INTO `product` (`id`, `name`, `dateAndTime`, `weight`, `isnew`, `cost`) VALUES (NULL, 'Торт', '2020-12-23 00:00:00', 100, 1, 200)";
-// if (mysqli_query($connect, $sql)) {
-//       echo "New record created successfully";
-// } else {
-//       echo "Error: " . $sql . "<br>" . mysqli_error($connect);
-// }
-
-// if($products)
-// {
-//     echo "Выполнение запроса прошло успешно";
-// }
- 
-// // закрываем подключение
-// mysqli_close($products);
 ?>
 
 
@@ -44,7 +29,7 @@ $products = mysqli_query($connect, "SELECT * FROM `product`");
 <body style="height: 5000px">
 	<nav class="fixed-top navbar navbar-expand-sm navbar-dark bg-dark">
 		<div class="container">
-			<a href="" class="navbar-brand">SweetHome</a>
+			<a href="includes/mainAdminMenu.php" class="navbar-brand">SweetHome</a>
 			<button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -52,15 +37,15 @@ $products = mysqli_query($connect, "SELECT * FROM `product`");
 			<div class="collapse navbar-collapse" id="navbarContent">
 				<ui class="navbar-nav mr-auto mb-2">
 					<li class="nav-item">
-						<a href="" class="nav-link">Торты</a>
+						<a href="product.php" class="nav-link">Продукты</a>
 					</li>
 
 					<li class="nav-item">
-						<a href="" class="nav-link">Десерты</a>
+						<a href="promotions.php" class="nav-link">Акции</a>
 					</li>
 
 					<li class="nav-item">
-						<a href="" class="nav-link">Хлеб</a>
+						<a href="shops.php" class="nav-link">Магазины</a>
 					</li>
 
 				</ui>

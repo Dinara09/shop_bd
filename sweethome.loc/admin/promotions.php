@@ -29,7 +29,7 @@ $promotions = mysqli_query($connect, "SELECT * FROM `promotions`");
 <body style="height: 5000px">
 	<nav class="fixed-top navbar navbar-expand-sm navbar-dark bg-dark">
 		<div class="container">
-			<a href="" class="navbar-brand">SweetHome</a>
+			<a href="includes/mainAdminMenu.php" class="navbar-brand">SweetHome</a>
 			<button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -37,15 +37,15 @@ $promotions = mysqli_query($connect, "SELECT * FROM `promotions`");
 			<div class="collapse navbar-collapse" id="navbarContent">
 				<ui class="navbar-nav mr-auto mb-2">
 					<li class="nav-item">
-						<a href="" class="nav-link">Торты</a>
+						<a href="product.php" class="nav-link">Продукты</a>
 					</li>
 
 					<li class="nav-item">
-						<a href="" class="nav-link">Десерты</a>
+						<a href="promotions.php" class="nav-link">Акции</a>
 					</li>
 
 					<li class="nav-item">
-						<a href="" class="nav-link">Хлеб</a>
+						<a href="shops.php" class="nav-link">Магазины</a>
 					</li>
 
 				</ui>
